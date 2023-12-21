@@ -1,12 +1,11 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className='footer'>
       
-      <p>Let'sDevelopme &copy; Portfolio 2023 </p>
+      <p>LetsDevelopme &copy; Portfolio 2023 </p>
         
     </footer>
   )
 }
+export default Footer
