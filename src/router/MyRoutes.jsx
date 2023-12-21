@@ -1,12 +1,12 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import {Home} from '../Components/Home';
-import {Portfolio} from '../Components/Portfolio';
-import {Services} from '../Components/Services';
-import {Curriculum} from '../Components/Curriculum';
-import {Contact} from '../Components/Contact';
-import { HeaderNav } from '../Components/layout/HeaderNav';
-import { Footer } from '../Components/layout/Footer';
-import { Projects } from '../Components/Projects';
+import Home from '../Components/Home';
+import Portfolio from '../Components/Portfolio';
+import Services from '../Components/Services';
+import Curriculum from '../Components/Curriculum';
+import Contact from '../Components/Contact';
+import  HeaderNav  from '../Components/layout/HeaderNav';
+import  Footer  from '../Components/layout/Footer';
+import  Projects  from '../Components/Projects';
 const MyRoutes = () => {
     return (
         <BrowserRouter>
