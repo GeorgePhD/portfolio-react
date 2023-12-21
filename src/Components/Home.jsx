@@ -1,9 +1,7 @@
-import React from 'react'
 import {Link} from 'react-router-dom';
-import { Portfolio } from './Portfolio';
 
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className='home-page'>
       <h2>Hola,</h2>
@@ -26,3 +24,4 @@ export const Home = () => {
     </div>
   )
 }
+export default Home

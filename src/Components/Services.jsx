@@ -1,6 +1,5 @@
-import React from 'react'
 
-export const Services = () => {
+const Services = () => {
   return (
     <div className='page'>
       <h1 className='h1'>Services</h1>
@@ -26,3 +25,4 @@ export const Services = () => {
     </div>
   )
 }
+export default Services

@@ -1,9 +1,8 @@
-import React from 'react'
 import { jobs } from '../data/jobs';
 import { Link } from 'react-router-dom';
 
 
-export const Portfolio = () => {
+const JobsList = () => {
 
     return (
 
@@ -27,3 +26,4 @@ export const Portfolio = () => {
                 </section>
     )
 }
+export  default JobsList

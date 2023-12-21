@@ -3,7 +3,7 @@ import { jobs } from '../data/jobs';
 import { Link } from 'react-router-dom';
 //started doing different in video 119. filtered projects in home page.
 
-export const Portfolio = () => {
+const Portfolio = () => {
 
   return (
 
@@ -44,3 +44,4 @@ export const Portfolio = () => {
     </div>
   )
 }
+export default Portfolio

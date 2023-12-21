@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import { jobs } from '../data/jobs';
 
 
 
-export const Projects = () => {
+const Projects = () => {
 
     const [project, setProject] = useState({});
     const params = useParams();
@@ -30,3 +30,4 @@ export const Projects = () => {
         </div>
     )
 }
+export default Projects
